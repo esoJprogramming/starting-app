@@ -11,13 +11,19 @@ describe("Likes", () => {
         techs: ["Node", "Express", "TypeScript"]
       });
 
+    console.log(repository.body.id);
+
     let response = await request(app).post(
       `/repositories/${repository.body.id}/like`
     );
 
+    console.log(response.body);
+
+
     expect(response.body).toMatchObject({
       likes: 1
     });
+    
 
     response = await request(app).post(
       `/repositories/${repository.body.id}/like`

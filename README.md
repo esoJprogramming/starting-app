@@ -20,7 +20,7 @@
 
 #### Mobile - (react-native)
 
-- **`Listar os repositórios da sua API`**: Lista de todos os repositórios que estão cadastrados na API com os campos **title**, **techs** e número de curtidas.
+- **`Listar os repositórios da sua API`**: Lista todos os repositórios que estão cadastrados na API com os campos **title**, **techs** e número de curtidas.
 
 - **`Curtir um repositório listado da API`**: Capaz de curtir um item na API através do botão **Curtir** que atualiza o número de likes do repositório.
 

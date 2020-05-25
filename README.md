@@ -1,4 +1,4 @@
-####Backend - (nodejs)
+#### Backend - (nodejs)
 
 - **`POST /repositories`**: A rota recebe `title`, `url` e `techs` dentro do corpo da requisição, sendo a URL o link para o github desse repositório.
 
@@ -10,7 +10,7 @@
 
 - **`POST /repositories/:id/like`**: Rota que aumenta o número de likes do repositório específico escolhido através do `id` presente nos parâmetros da rota.
 
-####Frontend - (reactjs)
+#### Frontend - (reactjs)
 
 - **`Listar os repositórios da sua API`**: Lista os repositórios com o campo **title** de todos os repositórios que estão cadastrados na API.
 
@@ -18,7 +18,7 @@
 
 - **`Remover um repositório da sua API`**: Para cada item da lista, possui um botão com o texto **Remover** que, ao clicar, irá remover o repositório da lista.
 
-####Mobile - (react-native)
+#### Mobile - (react-native)
 
 - **`Listar os repositórios da sua API`**: Lista de todos os repositórios que estão cadastrados na API com os campos **title**, **techs** e número de curtidas.
 
